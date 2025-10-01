@@ -40,7 +40,7 @@ function Contact() {
         emailjs.send(serviceId, templateId,templateParams, publicKey)
         .then((res) => {
             if (res.status === 200) {
-                setSuccess('Message sent successfully, Thank You');
+                setSuccess('Message sent successfully');
                 setTimeout(() => {
                     setSuccess('')
                 }, 3000)
