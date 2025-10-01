@@ -41,7 +41,7 @@ export default function About() {
             <div className="flex justify-start items-center">
             <div className="flex justify-center items-start gap-2">
                 <h1 className="about-text border-t-2 border-b-2 border-blue-800 px-5 bg-black md:text-[1.8vw] text-[6vw] mb-4">My self</h1>
-                <div className="sideIcon md:text-[3vw] text-[14vw] text-gray-600"><CgDesignmodo/></div>
+                <div className="sideIcon md:text-[3vw] text-[10vw] text-gray-600"><CgDesignmodo/></div>
             </div>
             </div>
             <p className="md:text-[1.3vw] select-none">
