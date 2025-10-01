@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaWhatsappSquare } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 import { MdErrorOutline } from "react-icons/md";
 import { TiTick } from "react-icons/ti";
 import emailjs from '@emailjs/browser';
@@ -91,12 +92,14 @@ function Contact() {
                     <span className='text-sky-800 font-semibold'>Gmail:</span>
                     <span className='border-b-2 border-gray-700 text'>mathanayyasamy@gmail.com</span>
                 </div>
-                <div className='flex flex-col'>
+                <div className='flex md:gap-2 flex-col'>
                     <span className='text-sky-800 font-semibold'>Social:</span>
                     <div className="flex gap-5 md:gap-5 text-[8vw] md:text-[2vw] text-gray-500 items-center min-h-[40px]">
-                        <a href="#" className="linkedin hover:text-blue-600 duration-200"><FaLinkedin /></a>
-                        <a href="#" className="github hover:text-gray-300 duration-200"><FaGithub /></a>
-                        <a href="#" className="insta hover:text-pink-500 duration-200"><FaInstagram /></a>
+                        <a href="https://www.linkedin.com/in/mathan-ayyasamy-06466a371" target="_blank" rel="noopener noreferrer" className="linkedIn hover:text-blue-600 duration-200"><FaLinkedin /></a>
+                        <a href="https://github.com/Mathan092001" target="_blank" rel="noopener noreferrer" className="Github hover:text-gray-300 duration-200"><FaGithub /></a>
+                        <a href="https://wa.me/918681916392?text=Hi!" target="_blank" rel="noopener noreferrer" className="whatsapp hover:text-green-600 duration-200"><FaWhatsappSquare /></a>
+                        <a href="https://www.instagram.com/mathanayyasamy?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer" className="instagram hover:text-pink-500 duration-200"><FaInstagram /></a>
+                        <a href="mailto:mathanayysamy@gmail.com?subject=Hello&body=Hi, I would like to connect with you." target="_blank" rel="noopener noreferrer" className="gmail hover:text-red-600 hover:bg-gray-300 duration-200 bg-gray-600 rounded-[0.2vw] px-1 md:text-[2vw] text-[7vw] text-black"><FiMail /></a>
                     </div>
                 </div>
             </form>
