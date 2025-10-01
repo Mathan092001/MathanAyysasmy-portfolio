@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+.loading {
+    font-family: "Share Tech Mono", monospace;
+}
+
+.loading-line-1,
+.loading-line-2,
+.loading-line-3 {
+  animation: bounce 1s infinite;
+}
+
+.loading-line-2 {
+  animation-delay: 0.2s;
+}
+
+.loading-line-3 {
+  animation-delay: 0.3s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2); /* taller in the middle */
+  }
+}

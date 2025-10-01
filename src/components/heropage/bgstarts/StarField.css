@@ -1,0 +1,53 @@
+/* StarField.css */
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+.star-field {
+  position: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(ellipse at center, #0d0d2b 0%, #000000 100%);
+  overflow: hidden;
+  z-index: -1;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  border-radius: 1px;
+  background: linear-gradient(180deg, #4c00ff 0%, #008cff 100%);
+  animation: waveMove 8s linear infinite;
+}
+
+@keyframes waveMove {
+  0% {
+    transform: translateY(0) scaleY(1);
+    opacity: 1;
+  }
+  25% {
+    transform: translateY(-20px) scaleY(1.1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(0) scaleY(1.2);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(20px) scaleY(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+    opacity: 1;
+  }
+}
+  
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.5); }
+  }

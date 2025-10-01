@@ -1,0 +1,26 @@
+
+.vertical-line {
+    border: 2px solid rgb(189, 189, 189);
+    position: absolute;
+    height: 10vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(172, 172, 172);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.name {
+  font-family: "Michroma", sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  .section {
+    height: 280vh;
+  }
+  .box {
+    height: 30vh;
+  }
+}

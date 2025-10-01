@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+html body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.profile-bg {
+    filter: brightness(0.6);
+    background-color: rgb(38, 121, 216);
+    overflow: hidden;
+}
+.about{
+    font-family: "Outfit", sans-serif;
+}
+.about-text {
+   font-family: "Goldman", sans-serif;
+
+}
+
+
+* {
+    scroll-behavior: smooth;
+  }
+
+.title {
+    font-family: "Michroma", sans-serif;
+    z-index: 9999;
+}
+.role {
+    font-family: "Share Tech Mono", monospace;
+}
+.cv {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    border: 1px dashed rgb(100, 100, 100);
+}
+.scroll {
+    font-family: "Share Tech Mono", monospace;
+}
+.para {
+    font-family: "Sono", sans-serif;
+    font-weight: 300;
+    color: rgb(192, 192, 192);
+    box-sizing: content-box;
+}
+.intro-text {
+    margin-top: -2px;
+    font-weight: 500;
+}
+.roles-container {
+    overflow: hidden;
+    position: relative;
+    font-weight: 500;
+}
+.roles {
+    font-weight: 500;
+    display: block;
+    height: 100%;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: rgb(99, 89, 231);
+    animation:  role-change 6s infinite;
+}
+
+.linkedIn:hover::after{
+    position: absolute;
+    content: 'LinkedIn';
+    color: rgb(202, 202, 202);
+    margin-top: -4.5rem;
+    margin-left: -1rem;
+    background-color: rgb(34, 34, 34);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 0.9vw;
+}
+.Github:hover::after{
+    position: absolute;
+    content: 'GitHub';
+    color: rgb(202, 202, 202);
+    margin-top: -4.5rem;
+    margin-left: -0.8rem;
+    background-color: rgb(34, 34, 34);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 0.9vw;
+}
+.instagram:hover::after{
+    position: absolute;
+    content: 'Instagram';
+    color: rgb(202, 202, 202);
+    margin-top: -4.5rem;
+    margin-left: -1.5rem;
+    background-color: rgb(34, 34, 34);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 0.9vw;
+}
+.whatsapp:hover::after{
+    position: absolute;
+    content: 'Whatsapp';
+    color: rgb(202, 202, 202);
+    margin-top: -4.5rem;
+    margin-left: -1.5rem;
+    background-color: rgb(34, 34, 34);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 0.9vw;
+}
+.gmail:hover::after{
+    position: absolute;
+    content: 'Gmail';
+    color: rgb(202, 202, 202);
+    margin-top: -4.5rem;
+    margin-left: -0.5rem;
+    background-color: rgb(34, 34, 34);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 0.9vw;
+}
+@media (max-width: 768px) { 
+    .insta:hover::after {
+        display: none;
+    }
+    .linkedin:hover::after {
+        display: none;
+    }
+    .github:hover::after {
+        display: none;
+    }
+}
+@keyframes role-change {
+    0%   { transform: translateY(-5%); }
+    20%  { transform: translateY(-100%); }
+    40%  { transform: translateY(-200%); }
+    60%  { transform: translateY(-300%); }
+    80%  { transform: translateY(-400%); }
+    100% { transform: translateY(0%); } 
+  }
+
+.full-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    transform: translateY(-100%);
+    animation: slideDown 0.6s ease-out forwards;
+  }
+  
+  @keyframes slideDown {
+    to {
+      transform: translateY(0);
+    }
+  }
+
+.line {
+    @apply flex justify-center items-center border-[1.5px] border-blue-700 w-[60vw] md:w-[40vw];
+}
+.line2 {
+    @apply flex justify-center items-center border-[1.5px] border-blue-700 w-[60vw] md:w-[40vw] bg-gray-900 text-white ;
+}
+.navbar {
+    @apply  md:flex justify-center md:block hidden bg-black bg-opacity-60 rounded-full items-center justify-evenly text-lg md:text-[1.1vw] md:w-[43vw]  md:h-[60px];
+    font-family: "Goldman", sans-serif;
+
+}
+.navbar a{
+    @apply px-[0.3rem]
+}
+.line3 {
+    margin-top: 8rem;
+    z-index: 4;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 5, 31) transparent;
+    filter: blur(20px);
+    clip-path: polygon(0 0, 75% 0, 74% 0 100% 100%, 50% 100%, 0 100%);
+}
+
+.line3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(2, 61, 253), transparent);
+    pointer-events: none;
+    filter: blur(15px);
+    clip-path: polygon(26% 0, 90% 0, 74% 0, 100% 90%, 40% 90%, 0 80%);
+}
+
+
+
+ 

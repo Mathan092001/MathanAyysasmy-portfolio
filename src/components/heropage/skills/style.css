@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.skills-heading{
+    font-family: 'Outfit', sans-serif;
+}
+:root {
+    --duration: 15s;
+  }
+  
+  .scroller {
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scroller::before,
+  .scroller::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100px;        
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+  }
+  
+  .scroller::before {
+    left: 0;
+    background: linear-gradient(to right, rgb(0, 11, 20), rgba(0,0,0,0));
+  }
+  
+  .scroller::after {
+    right: 0;
+    background: linear-gradient(to left, rgb(0, 11, 20), rgba(0,0,0,0));
+  }
+  
+  .scroller__inner {
+    display: flex;
+    gap: 1rem;
+    padding-block: 1rem;
+    width: max-content;
+    animation: scrollX var(--duration) linear infinite;
+  }
+  
+  .tag-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    opacity: 0.6;
+  }
+  
+  .tag-list li {
+    display: inline-block;
+    background-color: rgb(42, 51, 70);
+    border-radius: 0.5rem;
+    white-space: nowrap;
+    box-shadow: 0 0.5rem 1rem -0.25rem rgba(0, 0, 0, 0.1);
+  }
+
+  
+  
