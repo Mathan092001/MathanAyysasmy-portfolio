@@ -9,7 +9,7 @@ import VitejsICON from '../assets/Vite.js.png'
 export default function Skills() {
     return ( 
         <section id="skills" className="skill-section w-[100vw] md:gap-10 gap-5 md:h-[100vh] h-[100%] bg-slate-950 text-white flex flex-col justify-center items-center p-8 select-none"> 
-            <h1 className="border-2 border-blue-800 rounded-full px-5 bg-blue-950 md:text-[1.8vw] text-gray-300 text-[6vw] font-[700]">Skills I Have</h1>
+            <h1 className="skill-text border-b-2 border-t-2 border-blue-800 px-5 md:text-[1.8vw] text-gray-300 text-[6vw] bg-black">Skills I Have</h1>
             <div className="flex flex-col justify-center items-center ">
                 <div className="skills-heading flex flex-col justify-center items-center text-gray-300">
                    <h2 className="md:text-[1.5vw] font-[700] text-gray-500 text-[5vw]">Core Web</h2>

@@ -11,10 +11,10 @@ import Contact from '../contact/contact'
 export default function Project() {
 
     return (
-        <section id="projects" className="section w-[100vw] md:h-[230vh] bg-slate-950 text-white flex flex-col justify-center items-center md:gap-20 gap-10 relative bottom-0 p-8 "> 
-            <div className="main-box-top flex flex-col justify-center items-center md:mt-10 md:gap-20 gap-10">
+        <section id="projects" className="section w-[100vw] md:h-[220vh] bg-slate-950 text-white flex flex-col justify-center items-center md:gap-20 gap-10 relative bottom-0 p-8 "> 
+            <div className="main-box-top flex flex-col justify-center items-center md:gap-20 md:mt-[-6vw] gap-10">
                 <div className=" flex flex-col justify-center items-center text-gray-300">
-                    <h2 className="border-2 border-blue-800 rounded-full px-5 bg-blue-950 md:text-[1.8vw] text-[6vw] font-[700]">Projects</h2>
+                    <h2 className="mywork-text border-t-2 border-b-2 border-blue-800 px-5 bg-black md:text-[1.8vw] text-[6vw]">My Work</h2>
                 </div>
                 <div className='md:flex md:gap-20 flex-wrap flex gap-10 justify-center items-center'>
                     <div className='box flex flex-col md:gap-4 gap-2 items-center bg-gray-800 md:w-[30vw] w-[90vw] md:h-auto md:p-6 p-3 rounded-t-[1rem]'>

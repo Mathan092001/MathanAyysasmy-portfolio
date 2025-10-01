@@ -1,6 +1,6 @@
 import "./style.css"
 import { CgDesignmodo } from "react-icons/cg";
-import ProfilePic from '../assets/New Profile.png'
+import ProfilePic from '../assets/My-Profile.png'
 import Cloude2 from '../assets/cloude-1.png'
 
 import { MdOutlineRocketLaunch } from "react-icons/md";
@@ -16,8 +16,8 @@ export default function About() {
     return(
         <section id="about" className="w-[100%] md:h-[100vh] h-[100%] md:flex flex-wrap items-center flex justify-center md:justify-evenly bg-slate-950 gap-5 text-gray-300 p-8 inset-0 rounded-t-[5rem]">
             <div className="profile-bg md:w-[40vw] md:h-[70vh] h-[47vh] flex justify-center items-center rounded-t-[80px] border-b-4">
-                <div className="p-10">
-                    <img src={ProfilePic} className="myprofile md:w-[22vw] w-[68vw] md:h-auto rounded-[10px]" />
+                <div className="md:p-10 p-5">
+                    <img src={ProfilePic} className="myprofile md:w-[24vw] w-[67vw] h-auto md:h-auto rounded-[10px]" />
                 </div>
                 <div className="cloude-container">
                 <div className="cloude absolute md:top-[-2rem] md:right-[-7rem] right-[9rem] top-[-0.2rem]">
@@ -40,7 +40,7 @@ export default function About() {
             <div className="about flex flex-col gap-4 md:text-[1.2vw]">
             <div className="flex justify-start items-center">
             <div className="flex justify-center items-start gap-2">
-                <h1 className="about-text border-t-2 border-b-2 border-blue-800 px-5 bg-black md:text-[1.8vw] text-[6vw]  mb-4">My self</h1>
+                <h1 className="about-text border-t-2 border-b-2 border-blue-800 px-5 bg-black md:text-[1.8vw] text-[6vw] mb-4">My self</h1>
                 <div className="sideIcon md:text-[3vw] text-[14vw] text-gray-600"><CgDesignmodo/></div>
             </div>
             </div>

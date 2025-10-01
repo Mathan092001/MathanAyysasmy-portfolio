@@ -69,7 +69,7 @@ function Contact() {
     <section id='contact' className='bg-black w-[90vw] p-8 rounded-lg flex flex-col gap-2 justify-center items-center main-container'>
         <div className='flex flex-col w-full text-center  main-container'>
             <h1 className='md:text-[3vw] text-[6vw] font-semibold text-gray-400'>Get in touch</h1>
-            <hr className='border-b-1 border-gray-700'/>
+            <hr className='border-b-2 border-blue-800'/>
         </div>
         <div className='md:flex flex-wrap w-[85vw] justify-between'>
         <div className='md:p-5 p-2 md:w-[40vw] md:gap-8 flex flex-col rounded-lg'>
