@@ -17,8 +17,8 @@ export default function Project() {
                     <h2 className="mywork-text border-t-2 border-b-2 border-blue-800 px-5 bg-black md:text-[1.8vw] text-[6vw]">My Work</h2>
                 </div>
                 <div className='md:flex md:gap-20 flex-wrap flex gap-10 justify-center items-center'>
-                    <div className='box flex flex-col md:gap-4 gap-2 items-center bg-gray-800 md:w-[30vw] w-[90vw] md:h-auto md:p-6 p-3 rounded-t-[1rem]'>
-                        <div className='bg-blue-700 hover:bg-black duration-[0.9s] md:w-[27vw] md:h-[30vh] w-[80vw] h-[25vh] rounded-t-[1rem] relative flex justify-end items-end overflow-hidden'>
+                    <div className='box flex flex-col md:gap-4 gap-2 items-center bg-gray-800 md:w-[30vw] w-[90vw] md:h-auto md:p-6 p-3 rounded-t-[1rem] m-auto'>
+                        <div className='bg-blue-700 hover:bg-black duration-[0.9s] md:w-[27vw] md:h-[30vh] w-[80vw] h-[25vh] rounded-t-[1rem] relative flex justify-end items-end overflow-hidden m-auto'>
                             <img src={Project1} className='md:w-[22vw] w-[70vw] rounded-t-[1rem] absolute hover:scale-[1.5] duration-[0.9s] ease-in-out' alt="" />
                         </div>
                         <div className='flex justify-between items-center w-full px-1'>

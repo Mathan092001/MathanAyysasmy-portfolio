@@ -62,7 +62,7 @@ export default function Navbar() {
                         </ul>
                         <div className="flex justify-center items-center justify-between px-7 md:hidden w-[72vw] rounded-full bg-black bg-opacity-60">
                             <a href="#"><img className="w-[13vw] h-auto cursor-pointer" src={Logo} /></a>
-                            <button onClick={() => setToggleNave(true)} className="md:hidden text-gray-400 block text-[10vw] font-semibold"><FaBars /></button>
+                            <button onClick={() => setToggleNave(true)} className="md:hidden text-gray-400 block text-[8vw] font-semibold"><FaBars /></button>
                         </div>
                     </div>
                     <line className="line2"></line>
