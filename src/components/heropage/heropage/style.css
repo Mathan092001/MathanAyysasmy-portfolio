@@ -129,7 +129,69 @@ html body {
     border-radius: 5px;
     font-size: 0.9vw;
 }
-@media (max-width: 768px) { 
+@media (min-width: 800px) and (max-width: 1366px) {
+    .linkedIn:hover::after{
+        position: absolute;
+        content: 'LinkedIn';
+        color: rgb(202, 202, 202);
+        margin-top: -2.5rem;
+        margin-left: -1rem;
+        background-color: rgb(34, 34, 34);
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        font-size: 0.9vw;
+    }
+    .Github:hover::after{
+        position: absolute;
+        content: 'GitHub';
+        color: rgb(202, 202, 202);
+        margin-top: -2.5rem;
+        margin-left: -0.8rem;
+        background-color: rgb(34, 34, 34);
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        font-size: 0.9vw;
+    }
+    .instagram:hover::after{
+        position: absolute;
+        content: 'Instagram';
+        color: rgb(202, 202, 202);
+        margin-top: -2.5rem;
+        margin-left: -1.5rem;
+        background-color: rgb(34, 34, 34);
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        font-size: 0.9vw;
+    }
+    .whatsapp:hover::after{
+        position: absolute;
+        content: 'Whatsapp';
+        color: rgb(202, 202, 202);
+        margin-top: -2.5rem;
+        margin-left: -1.5rem;
+        background-color: rgb(34, 34, 34);
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        font-size: 0.9vw;
+    }
+    .gmail:hover::after{
+        position: absolute;
+        content: 'Gmail';
+        color: rgb(202, 202, 202);
+        margin-top: -2.5rem;
+        margin-left: -0.5rem;
+        background-color: rgb(34, 34, 34);
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        font-size: 0.9vw;
+    }
+}
+  @media (min-width: 320px) and (max-width: 769px) { 
     .insta:hover::after {
         display: none;
     }
