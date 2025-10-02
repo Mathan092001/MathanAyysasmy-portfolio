@@ -18,9 +18,18 @@
     font-family: "Goldman", sans-serif;
 }
 
+@media (max-width: 1366px) {
+  .section {
+    height: 230vh;
+  }
+  .box {
+    height: 43vh;
+  }
+}
+
 @media (max-width: 768px) {
   .section {
-    height: 280vh;
+    height: 290vh;
   }
   .box {
     height: 30vh;

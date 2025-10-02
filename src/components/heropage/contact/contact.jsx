@@ -19,7 +19,7 @@ function Contact() {
         e.preventDefault();
 
         if (!name || !email || !message) {
-            setError('All fields are require to sent message.');
+            setError('All fields are required to sent');
             setTimeout(() => {
                 setError('')
             }, 3000)
@@ -67,14 +67,14 @@ function Contact() {
     }
 
   return (
-    <section id='contact' className='bg-black w-[90vw] md:max-h-[75vh] md:min-h-[50vh] max-h-[120vh] minh-[60vh] p-8 rounded-lg flex flex-col gap-2 justify-center items-center main-container'>
+    <section id='contact' className='bg-black w-[90vw] md:h-[80vh] h-[115vh] p-8 rounded-lg flex flex-col gap-2 justify-center items-center main-container'>
         <div className='flex flex-col w-full text-center  main-container'>
             <h1 className='md:text-[3vw] text-[6vw] font-semibold text-gray-400'>Get in touch</h1>
             <hr className='border-b-2 border-blue-800'/>
         </div>
         <div className='md:flex flex-wrap w-[85vw] justify-between'>
         <div className='md:p-5 p-2 md:w-[40vw] md:gap-8 flex flex-col rounded-lg'>
-            <h1 className='md:text-[2vw] md:text-[1.5vw] font-semibold text-gray-500 text-center '>Reach Out</h1>
+            <h1 className='md:text-[2vw] font-semibold text-gray-500 text-center '>Reach Out</h1>
             <form className='flex flex-col text-gray-400 md:gap-3 gap-4 md:text-[1.3vw] text-[3.4vw] main-container'>
                 <div className='flex flex-col '>
                     <span className='text-sky-800 font-semibold'>Name:</span>

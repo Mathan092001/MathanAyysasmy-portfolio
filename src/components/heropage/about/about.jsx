@@ -14,7 +14,7 @@ import { SiScaleway } from "react-icons/si";
 export default function About() {
 
     return(
-        <section id="about" className="w-[100%] md:h-[100vh] h-[100%] md:flex flex-wrap items-center flex justify-center md:justify-evenly bg-slate-950 gap-5 text-gray-300 p-8 inset-0 rounded-t-[5rem]">
+        <section id="about" className="skill-section w-[100%] md:h-[100vh] h-[100%] md:flex flex-wrap items-center flex justify-center md:justify-evenly bg-slate-950 gap-5 text-gray-300 p-8 inset-0 rounded-t-[5rem]">
             <div className="profile-bg md:w-[40vw] md:h-[70vh] h-[47vh] flex justify-center items-center rounded-t-[80px] border-b-4">
                 <div className="md:p-10 p-5">
                     <img src={ProfilePic} className="myprofile md:w-[24vw] w-[67vw] h-auto md:h-auto rounded-[10px]" />
