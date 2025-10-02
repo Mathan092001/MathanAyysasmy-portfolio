@@ -191,6 +191,15 @@ html body {
         font-size: 0.9vw;
     }
 }
+@media (min-width: 800px) and (max-width: 1366px) {
+    .highlight-1 {
+        margin-top: -6.6vw;
+    }
+    .highlight-2 {
+        margin-bottom: -2.5vw;
+    }
+  }
+  
   @media (min-width: 320px) and (max-width: 769px) { 
     .insta:hover::after {
         display: none;

@@ -2,11 +2,15 @@ import "./style.css"
 import { FaLinkedin, FaGithub, FaInstagram, FaWhatsappSquare  } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { CgTapDouble } from "react-icons/cg";
+import { useState } from "react";
 
 
 export default function HeroPage(){
 
+    const [openResume, setOpenResume] = useState(false)
+
     return (
+        <>
         <section id="home" className="heropage w-[100%] h-[100%] md:h-[75vh] flex flex-col justify-start items-center backdrop-blur-[0px] bg-black bg-opacity-40 relative md:p-0 p-3 ">
             <div className="flex flex-col justify-center items-center md:mt-[-5rem] mt-[-2rem] text-gray-200 md:gap-24 gap-12">
                 <div className="flex flex-col justify-center items-center ">
@@ -24,8 +28,8 @@ export default function HeroPage(){
                        <p className="intro-text">Web Experiences</p>
                    </div>
                     <div className="box-text flex gap-4 md:gap-6">
-                        <button className="cv hover:text-gray-300 text-gray-400 hover:bg-gray-800 px-2 py-1 text-[2.8vw] md:px-4 md:py-1 hover:scale-x-125 duration-500 ease-in-out rounded-[0.1vw] md:text-[0.9vw] ">My Profile</button>
-                        <button className="cv hover:text-gray-300 text-gray-400 hover:bg-gray-800 px-2 py-1 text-[2.8vw] md:px-4 md:py-1 rounded-[0.1vw] md:text-[0.9vw] hover:scale-x-125 duration-500 ease-in-out">Get in touch</button>
+                        <a href="https://app.luminpdf.com/viewer/68deaf2c0fa6dec05a3cf2be" target="_blank" rel="noopener noreferrer" className="cv hover:text-gray-300 text-gray-400 hover:bg-gray-800 px-2 py-1 text-[2.8vw] md:px-4 md:py-1 hover:scale-x-125 duration-500 ease-in-out rounded-[0.1vw] md:text-[0.9vw] ">My Profile</a>
+                        <a href="#contact" className="cv hover:text-gray-300 text-gray-400 hover:bg-gray-800 px-2 py-1 text-[2.8vw] md:px-4 md:py-1 rounded-[0.1vw] md:text-[0.9vw] hover:scale-x-125 duration-500 ease-in-out">Get in touch</a>
                     </div>
                     <div className="flex gap-5 md:gap-10 text-[8vw] md:text-[2.2vw] text-gray-500 items-center min-h-[40px]">
                         <a href="https://www.linkedin.com/in/mathan-ayyasamy-06466a371" target="_blank" rel="noopener noreferrer" className="linkedIn hover:text-blue-600 duration-200"><FaLinkedin /></a>
@@ -41,5 +45,6 @@ export default function HeroPage(){
                 </div>
             </div>
         </section>
+     </>
     );
 };

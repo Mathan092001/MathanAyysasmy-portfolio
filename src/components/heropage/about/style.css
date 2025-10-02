@@ -18,5 +18,9 @@ html body {
    font-family: "Goldman", sans-serif;
 }
 
-
+@media (min-width: 800px) and (max-width: 1366px) {
+    .myprofile {
+        width: 26vw;
+    }
+  }
 

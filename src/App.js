@@ -26,7 +26,7 @@ function App() {
       {loading ? (
         <Loading />
       ) : (
-        <BrowserRouter>
+        <div>
           <Navbar />
           <div className='fade-in duration-1000 ease-in '>
             <StarField starCount={100} />
@@ -36,7 +36,7 @@ function App() {
             <Project />
             <Footer />
           </div>
-        </BrowserRouter>
+       </div>
       )}
     </div>
   );
