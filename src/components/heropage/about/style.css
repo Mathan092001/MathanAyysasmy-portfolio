@@ -18,12 +18,5 @@ html body {
    font-family: "Goldman", sans-serif;
 }
 
-@media (max-width: 1366px ) {
-    .skill-section {
-      height: 120vh;
-    }
-    .box {
-      height: 30vh;
-    }
-  }
+
 

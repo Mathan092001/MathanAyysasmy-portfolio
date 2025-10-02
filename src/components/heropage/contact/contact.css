@@ -8,3 +8,9 @@
 .text {
     font-family: "Sono", sans-serif;
 }
+
+@media (min-width: 800px) and (max-width: 1366px) {
+    .contact-page {
+      height: 90vh;
+    }
+  }

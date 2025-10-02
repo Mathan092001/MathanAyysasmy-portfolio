@@ -67,7 +67,7 @@ function Contact() {
     }
 
   return (
-    <section id='contact' className='bg-black w-[90vw] md:h-[80vh] h-[115vh] p-8 rounded-lg flex flex-col gap-2 justify-center items-center main-container'>
+    <section id='contact' className='contact-page bg-black w-[90vw] md:h-[80vh] h-[115vh] p-8 rounded-lg flex flex-col gap-2 justify-center items-center main-container'>
         <div className='flex flex-col w-full text-center  main-container'>
             <h1 className='md:text-[3vw] text-[6vw] font-semibold text-gray-400'>Get in touch</h1>
             <hr className='border-b-2 border-blue-800'/>
