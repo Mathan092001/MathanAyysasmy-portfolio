@@ -6,8 +6,8 @@ import StarField from './components/heropage/bgstarts/bgstar';
 import Skills from './components/heropage/skills/skills';
 import Project from './components/heropage/projects/project';
 import Footer from './components/heropage/footer/footer';
-import { BrowserRouter } from 'react-router-dom';
 import Loading from './components/loading-page/Loading';
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DHH6EC6PRR"></script>
 
 function App() {
 
@@ -20,6 +20,12 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DHH6EC6PRR');
 
   return (
     <div >
