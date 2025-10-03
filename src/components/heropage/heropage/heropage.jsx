@@ -10,8 +10,8 @@ export default function HeroPage(){
         <section id="home" className="heropage w-[100%] h-[100%] md:h-[75vh] flex flex-col justify-start items-center backdrop-blur-[0px] bg-black bg-opacity-40 relative md:p-0 p-3 ">
             <div className="flex flex-col justify-center items-center md:mt-[-5rem] mt-[-2rem] text-gray-200 md:gap-24 gap-12">
                 <div className="flex flex-col justify-center items-center ">
-                   <h1 className="title md:text-[5vw] text-[5.5vw] tracking-wide">MATHAN AYYASAMY</h1>
-                   <h3 className="role md:text-[2vw] text-gray-500">Frontend Developer</h3>
+                   <h1 className="title md:text-[5vw] text-[5.5vw] tracking-wide select-none">MATHAN AYYASAMY</h1>
+                   <h3 className="role md:text-[2vw] text-gray-500 select-none">Frontend Developer</h3>
                 </div>
                 <div className="hero-text flex flex-col gap-5 md:gap-10 justify-center items-center">
                    <div className="para flex text-[3.5vw] md:text-[2vw] p-1 text-center gap-3 select-none">
