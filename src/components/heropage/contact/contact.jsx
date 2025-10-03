@@ -19,7 +19,7 @@ function Contact() {
         e.preventDefault();
 
         if (!name || !email || !message) {
-            setError('All fields are required to sent');
+            setError('All fields are required to sent.');
             setTimeout(() => {
                 setError('')
             }, 3000)

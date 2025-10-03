@@ -2,12 +2,8 @@ import "./style.css"
 import { FaLinkedin, FaGithub, FaInstagram, FaWhatsappSquare  } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { CgTapDouble } from "react-icons/cg";
-import { useState } from "react";
-
 
 export default function HeroPage(){
-
-    const [openResume, setOpenResume] = useState(false)
 
     return (
         <>
