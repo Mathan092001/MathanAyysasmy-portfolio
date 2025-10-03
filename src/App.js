@@ -7,8 +7,6 @@ import Skills from './components/heropage/skills/skills';
 import Project from './components/heropage/projects/project';
 import Footer from './components/heropage/footer/footer';
 import Loading from './components/loading-page/Loading';
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DHH6EC6PRR"></script>
-
 function App() {
 
   const [loading, setLoading] = useState(true); 
@@ -20,13 +18,7 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
-
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DHH6EC6PRR');
-
+  
   return (
     <div >
       {loading ? (

@@ -47,7 +47,7 @@ export default function About() {
             <p className="md:text-[1.3vw] select-none">
                 Hi, I’m <b className="text-blue-400 hover:text-blue-500 ">Mathan Ayyasamy</b >, a front-end developer passionate about building fast, <br /> accessible, and user-friendly websites that bring ideas to life.
             </p>
-            <div className="flex flex-col gap-2 select-none">
+            <div className="relative z-10 flex flex-col gap-2 select-none ">
             <h2 className="font-semibold md:text-[1.4vw] text-[5.2vw]">My Core Development Strengths :</h2>
             <dl className="flex flex-col gap-3 py-2">
                 <li className="flex gap-5 md:items-center items-start">
@@ -130,8 +130,8 @@ export default function About() {
                 </li>
             </dl>
             </div>
+            <img className="absolute md:max-w-[35vw] w-[90vw] opacity-10 bg-cover bg-center md:ml-[16vw] md:mt-[10vw] mt-[15vw]" src={Cloude2} alt="" />
             </div>
-            
         </section>
     )
 }
