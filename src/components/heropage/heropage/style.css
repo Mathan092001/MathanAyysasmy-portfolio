@@ -191,6 +191,25 @@ html body {
         font-size: 0.9vw;
     }
 }
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+    .highlight-1 {
+        margin-top: -6.2vw;
+    }
+    .highlight-2 {
+        margin-bottom: -2.3vw;
+    }
+  }
+
+@media (min-width: 900px) and (max-width: 1400px) {
+    .highlight-1 {
+        margin-top: -6.5vw;
+    }
+    .highlight-2 {
+        margin-bottom: -2.4vw;
+    }
+  }
+  
 @media (min-width: 800px) and (max-width: 1366px) {
     .highlight-1 {
         margin-top: -6.6vw;
