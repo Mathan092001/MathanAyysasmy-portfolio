@@ -68,11 +68,11 @@ export default function Skills() {
                            <h2 className='md:text-[1vw] text-[3vw] font-semibold text-gray-400'>GitHub</h2>
                         </div>
                         <div className='flex flex-col gap-2 justify-center items-center'>
-                           <li className="text-gray-300 md:px-3 md:py-2 px-2 py-1"><img src={VitejsICON} className='md:w-[8vw] w-[16vw] hover:scale-110 duration-500 ease-in-out'/></li>
+                           <li className="text-gray-300 md:px-3 md:py-2 px-2 py-1"><img src={VitejsICON} alt='Vite-Icon' className='md:w-[8vw] w-[16vw] hover:scale-110 duration-500 ease-in-out'/></li>
                            <h2 className='md:text-[1vw] text-[3vw] font-semibold text-gray-400'>Vite.JS</h2>
                         </div>
                         <div className='flex flex-col gap-2 justify-center items-center'>
-                           <li className="text-red-500 md:px-3 md:py-2 px-2 py-1"><img src={ReactIcon} className='md:w-[8vw] w-[16vw] hover:rotate-90 duration-[1s] ease-in-out '/></li>
+                           <li className="text-red-500 md:px-3 md:py-2 px-2 py-1"><img src={ReactIcon} alt='Vite-Icon' className='md:w-[8vw] w-[16vw] hover:rotate-90 duration-[1s] ease-in-out '/></li>
                            <h2 className='md:text-[1vw] text-[3vw] font-semibold text-gray-400'>React Icons</h2>
                         </div>
                     </ul>

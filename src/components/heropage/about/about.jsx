@@ -130,7 +130,7 @@ export default function About() {
                 </li>
             </dl>
             </div>
-            <img className="absolute md:max-w-[35vw] w-[90vw] opacity-10 bg-cover bg-center md:ml-[16vw] md:mt-[10vw] mt-[15vw]" src={Cloude2} alt="" />
+            <img className="absolute md:max-w-[35vw] w-[90vw] opacity-10 bg-cover bg-center md:ml-[16vw] md:mt-[10vw] mt-[15vw]" src={Cloude2} alt="Cloude" />
             </div>
         </section>
     )
