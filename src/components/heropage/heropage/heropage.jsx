@@ -23,9 +23,9 @@ export default function HeroPage(){
                       </div>
                        <p className="intro-text">Web Experiences</p>
                    </div>
-                    <div className="box-text flex gap-4 md:gap-6">
-                        <a href="https://aquamarine-lexine-69.tiiny.site" target="_blank" rel="noopener noreferrer" className="cv hover:text-gray-300 text-gray-400 hover:bg-gray-800 px-2 py-1 text-[2.8vw] md:px-4 md:py-1 hover:scale-x-125 duration-500 ease-in-out rounded-[0.1vw] md:text-[0.9vw] ">My Profile</a>
-                        <a href="#contact" className="cv hover:text-gray-300 text-gray-400 hover:bg-gray-800 px-2 py-1 text-[2.8vw] md:px-4 md:py-1 rounded-[0.1vw] md:text-[0.9vw] hover:scale-x-125 duration-500 ease-in-out">Get in touch</a>
+                    <div className="box-text flex gap-5 md:gap-6">
+                        <a href="https://aquamarine-lexine-69.tiiny.site" target="_blank" rel="noopener noreferrer" className="cv border-2 border-blue-600 text-gray-300 hover:border-black hover:bg-gray-300 hover:text-black px-2 py-1 text-[2.8vw] md:px-5 md:py-1 duration-[0.1s] ease-in-out rounded-[0.1vw] md:text-[1.2vw] ">My Profile</a>
+                        <a href="#contact" className="cv border-2 border-blue-600 text-gray-300 hover:border-black hover:bg-gray-300 hover:text-black px-2 py-1 text-[2.8vw] md:px-5 md:py-1 duration-[0.1s] ease-in-out rounded-[0.1vw] md:text-[1.2vw]">Get in touch</a>
                     </div>
                     <div className="flex gap-5 md:gap-10 text-[8vw] md:text-[2.2vw] text-gray-500 items-center min-h-[40px]">
                         <a href="https://www.linkedin.com/in/mathan-ayyasamy-06466a371" target="_blank" rel="noopener noreferrer" className="linkedIn hover:text-blue-600 duration-200"><FaLinkedin /></a>

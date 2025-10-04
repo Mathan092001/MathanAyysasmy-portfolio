@@ -39,7 +39,6 @@ html body {
 .cv {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400;
-    border: 1px dashed rgb(100, 100, 100);
 }
 .scroll {
     font-family: "Share Tech Mono", monospace;
@@ -191,7 +190,6 @@ html body {
         font-size: 0.9vw;
     }
 }
-
 @media (min-width: 1440px) and (max-width: 1600px) {
     .highlight-1 {
         margin-top: -6.2vw;

@@ -24,8 +24,8 @@ export default function Project() {
                         <div className='flex justify-between items-center w-full px-1'>
                             <h1 className='border border-[2px] bg-black duration-[0.6s] select-none md:rounded-t-[0.5vw] rounded-t-[1vw] border-b-blue-600 border-t-0 border-l-0 border-r-0 md:text-[1.2vw] text-[3.5vw] px-5 text-gray-400'>Expens Tracking System</h1>
                             <div className='flex md:gap-3 gap-2 text-gray-400'>
-                                <i className='p-1 bg-gray-400 text-black md:text-[1.5vw] text-[5vw] rounded-full cursor-pointer hover:bg-black hover:text-gray-300 duration-[0.9s] ease-in-out hover:rotate-90'><a href='https://expens-tracker-drab.vercel.app/' target='_blank' rel="noopener noreferrer"><FaArrowUp /></a></i>
-                                <i className='p-1 bg-black rounded-full cursor-pointer md:text-[1.5vw] text-[5vw] hover:bg-gray-400 hover:text-black duration-[0.9s] ease-in-out hover:scale-[1.1]'><a href='https://github.com/Mathan092001/Expens-tracker' target='_blank' rel="noopener noreferrer"><FiGithub /></a></i>
+                                <i className='arrow p-1 bg-gray-400 text-black md:text-[1.5vw] text-[5vw] rounded-full cursor-pointer hover:bg-black hover:text-gray-300'><a href='https://expens-tracker-drab.vercel.app/' target='_blank' rel="noopener noreferrer" className='arrow'><FaArrowUp /></a></i>
+                                <i className='p-1 bg-black rounded-full cursor-pointer md:text-[1.5vw] text-[5vw] hover:bg-gray-400 hover:text-black duration-[0.2s] ease-in-out hover:scale-[1.1]'><a href='https://github.com/Mathan092001/Expens-tracker' target='_blank' rel="noopener noreferrer"><FiGithub /></a></i>
                             </div>
                         </div>
                     </div>
@@ -36,8 +36,8 @@ export default function Project() {
                         <div className='flex justify-between items-center w-full px-1'>
                             <h1 className='border border-[2px] bg-black duration-[0.6s] select-none md:rounded-t-[0.5vw] rounded-t-[1vw] border-b-blue-600 border-t-0 border-l-0 border-r-0 md:text-[1.2vw] text-[3.5vw] px-5 text-gray-400'>Dashboard design</h1>
                             <div className='flex md:gap-3 gap-2 text-gray-400'>
-                                <i className='p-1 bg-gray-400 text-black md:text-[1.5vw] text-[5vw] rounded-full cursor-pointer hover:bg-black hover:text-gray-300 duration-[0.9s] ease-in-out hover:rotate-90'><a href='https://dashboard-two-flame-43.vercel.app/' target='_blank' rel="noopener noreferrer"><FaArrowUp /></a></i>
-                                <i className='p-1 bg-black rounded-full cursor-pointer md:text-[1.5vw] text-[5vw] hover:bg-gray-400 hover:text-black duration-[0.9s] ease-in-out hover:scale-[1.1]'><a href='https://github.com/Mathan092001/new-dashboard' target='_blank' rel="noopener noreferrer"><FiGithub /></a></i>
+                                <i className='arrow p-1 bg-gray-400 text-black md:text-[1.5vw] text-[5vw] rounded-full cursor-pointer hover:bg-black hover:text-gray-300'><a href='https://dashboard-two-flame-43.vercel.app/' target='_blank' rel="noopener noreferrer"><FaArrowUp /></a></i>
+                                <i className='p-1 bg-black rounded-full cursor-pointer md:text-[1.5vw] text-[5vw] hover:bg-gray-400 hover:text-black duration-[0.2s] ease-in-out hover:scale-[1.1]'><a href='https://github.com/Mathan092001/new-dashboard' target='_blank' rel="noopener noreferrer"><FiGithub /></a></i>
                             </div>
                         </div>
                     </div>
@@ -50,8 +50,8 @@ export default function Project() {
                         <div className='flex justify-between items-center w-full px-1'>
                             <h1 className='border border-[2px] bg-black duration-[0.6s] select-none md:rounded-t-[0.5vw] rounded-t-[1vw] border-b-blue-600 border-t-0 border-l-0 border-r-0 md:text-[1.2vw] text-[3.5vw] px-5 text-gray-400'>Recipe Make Online</h1>
                             <div className='flex md:gap-3 gap-2 text-gray-400'>
-                                <i className='p-1 bg-gray-400 text-black md:text-[1.5vw] text-[5vw] rounded-full cursor-pointer hover:bg-black hover:text-gray-300 duration-[0.9s] ease-in-out hover:rotate-90'><a href='https://recipie-make.vercel.app/' target='_blank' rel="noopener noreferrer"><FaArrowUp /></a></i>
-                                <i className='p-1 bg-black rounded-full cursor-pointer md:text-[1.5vw] text-[5vw] hover:bg-gray-400 hover:text-black duration-[0.9s] ease-in-out hover:scale-[1.1]'><a href='https://github.com/Mathan092001/Recipie-Make' target='_blank' rel="noopener noreferrer"><FiGithub /></a></i>
+                                <i className='arrow p-1 bg-gray-400 text-black md:text-[1.5vw] text-[5vw] rounded-full cursor-pointer hover:bg-black hover:text-gray-300 '><a href='https://recipie-make.vercel.app/' target='_blank' rel="noopener noreferrer"><FaArrowUp /></a></i>
+                                <i className='p-1 bg-black rounded-full cursor-pointer md:text-[1.5vw] text-[5vw] hover:bg-gray-400 hover:text-black duration-[0.2s] ease-in-out hover:scale-[1.1]'><a href='https://github.com/Mathan092001/Recipie-Make' target='_blank' rel="noopener noreferrer"><FiGithub /></a></i>
                             </div>
                         </div>
                     </div>
@@ -62,8 +62,8 @@ export default function Project() {
                         <div className='flex justify-between items-center w-full px-1'>
                             <h1 className='border border-[2px] bg-black duration-[0.6s] select-none md:rounded-t-[0.5vw] rounded-t-[1vw] border-b-blue-600 border-t-0 border-l-0 border-r-0 md:text-[1.2vw] text-[3.5vw] px-5 text-gray-400'>CRUD - EMP Payroll</h1>
                             <div className='flex md:gap-3 gap-2 text-gray-400'>
-                                <i className='p-1 bg-gray-400 text-black md:text-[1.5vw] text-[5vw] rounded-full cursor-pointer hover:bg-black hover:text-gray-300 duration-[0.9s] ease-in-out hover:rotate-90'><a href='https://crud-employee-payroll.vercel.app/' target='_blank' rel='noopener noreferrer'><FaArrowUp /></a></i>
-                                <i className='p-1 bg-black rounded-full cursor-pointer md:text-[1.5vw] text-[5vw] hover:bg-gray-400 hover:text-black duration-[0.9s] ease-in-out hover:scale-[1.1]'><a href='https://github.com/Mathan092001/crud-new' target='_blank' rel='noopener noreferrer'><FiGithub /></a></i>
+                                <i className='arrow p-1 bg-gray-400 text-black md:text-[1.5vw] text-[5vw] rounded-full cursor-pointer hover:bg-black hover:text-gray-300'><a href='https://crud-employee-payroll.vercel.app/' target='_blank' rel='noopener noreferrer'><FaArrowUp /></a></i>
+                                <i className='p-1 bg-black rounded-full cursor-pointer md:text-[1.5vw] text-[5vw] hover:bg-gray-400 hover:text-black duration-[0.2s] ease-in-out hover:scale-[1.1]'><a href='https://github.com/Mathan092001/crud-new' target='_blank' rel='noopener noreferrer'><FiGithub /></a></i>
                             </div>
                         </div>
                     </div>

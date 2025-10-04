@@ -17,6 +17,25 @@
 .mywork-text {
     font-family: "Goldman", sans-serif;
 }
+.arrow {
+      animation-name: infiniteanime;
+      animation-duration: 2s; /* Duration of one animation cycle */
+      animation-timing-function: linear; /* or ease, ease-in, ease-out, etc. */
+      animation-iteration-count: infinite; /* This makes it loop forever */
+      animation-direction: alternate; 
+      transition: transform;
+}
+@keyframes infiniteanime {
+  0% {
+    transform: rotate(0deg);
+}
+50% {
+    transform: rotate(50deg);
+}
+100% {
+    transform: rotate(0deg);
+}
+}
 
 @media (min-width: 800px) and (max-width: 1366px) {
   .project-section {
