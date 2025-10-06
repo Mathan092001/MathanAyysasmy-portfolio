@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+
 .navbar-mobile {
-    @apply flex inset-0 fixed flex-col text-gray-500 font-normal justify-center bg-black bg-opacity-90 items-center gap-[2.5rem] text-[2rem] font-normal md:w-[100vw] md:h-[100vh] ;
+    @apply flex inset-0 fixed flex-col text-gray-500 justify-center bg-black bg-opacity-90 items-center gap-[2.5rem] text-[2rem] md:w-[100vw] md:h-[100vh] ;
+    font-family: "Goldman", sans-serif;
 }
 .navbar-mobile {
     z-index: 11;

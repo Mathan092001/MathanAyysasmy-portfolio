@@ -261,7 +261,6 @@ html body {
 .navbar {
     @apply  md:flex justify-center md:block hidden bg-black bg-opacity-60 rounded-full items-center justify-evenly text-lg md:text-[1.1vw] md:w-[43vw]  md:h-[60px];
     font-family: "Goldman", sans-serif;
-
 }
 .navbar a{
     @apply px-[0.3rem]
