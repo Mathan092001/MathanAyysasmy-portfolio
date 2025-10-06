@@ -14,7 +14,7 @@ import { SiScaleway } from "react-icons/si";
 export default function About() {
 
     return(
-        <section id="about" className=" w-[100%] md:h-[100vh] h-[100%] md:flex flex-wrap items-center flex justify-center md:justify-evenly bg-slate-950 gap-5 text-gray-300 p-8 inset-0 rounded-t-[5rem]">
+        <section id="about" className=" w-[100%] md:h-[100vh] h-[100%] md:flex flex-wrap items-center flex justify-center md:justify-evenly bg-slate-950 gap-5 text-gray-300 md:p-8 p-3 inset-0 rounded-t-[5rem]">
             <div className="profile-bg md:w-[40vw] md:h-[70vh] h-[47vh] flex justify-center items-center rounded-t-[80px] border-b-4">
                 <div className="md:p-10 p-5">
                     <img src={ProfilePic} className="myprofile md:w-[24vw] w-[67vw] h-auto md:h-auto rounded-[10px]" />
@@ -45,11 +45,11 @@ export default function About() {
             </div>
             </div>
             <p className="md:text-[1.3vw] select-none">
-                Hi, I’m <b className="text-blue-400 hover:text-blue-500 ">Mathan Ayyasamy</b >, a front-end developer passionate about building fast, <br /> accessible, and user-friendly websites that bring ideas to life.
+                Hi, I’m <b className="text-blue-500 ">Mathan Ayyasamy</b >, a front-end developer passionate about building fast, <br /> accessible, and user-friendly websites that bring ideas to life.
             </p>
             <div className="relative z-9 flex flex-col gap-2 select-none ">
             <h2 className="font-semibold md:text-[1.4vw] text-[5.2vw]">My Core Development Strengths :</h2>
-            <dl className="flex flex-col gap-3 py-2">
+            <dl className="flex flex-col md:gap-6 gap-3 py-2">
                 <li className="flex gap-5 md:items-center items-start">
                     <div className="md:text-[0.9vw]">
                         <GoDotFill/>
