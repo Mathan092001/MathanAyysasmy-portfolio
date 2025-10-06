@@ -99,7 +99,7 @@ function Contact() {
                         <a href="https://github.com/Mathan092001" target="_blank" rel="noopener noreferrer" className="Github hover:text-gray-300 duration-200"><FaGithub /></a>
                         <a href="https://wa.me/918681916392?text=Hi!" target="_blank" rel="noopener noreferrer" className="whatsapp hover:text-green-600 duration-200"><FaWhatsappSquare /></a>
                         <a href="https://www.instagram.com/mathanayyasamy?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer" className="instagram hover:text-pink-500 duration-200"><FaInstagram /></a>
-                        <a href="mailto:mathanayysamy@gmail.com?subject=Hello&body=Hi, I would like to connect with you." target="_blank" rel="noopener noreferrer" className="gmail hover:text-red-600 hover:bg-gray-300 duration-200 bg-gray-500 rounded-[0.2vw] px-1 md:text-[2vw] text-[7vw] text-black"><FiMail /></a>
+                        <a href="mailto:mathanayysamy@gmail.com?subject=Hello&body=Hi, I would like to connect with you." target="_blank" rel="noopener noreferrer" className="gmail hover:text-red-600 hover:bg-gray-300 duration-200 bg-gray-500 rounded-[0.3vw] px-1 md:text-[2vw] text-[7vw] text-black"><FiMail /></a>
                     </div>
                 </div>
             </form>
