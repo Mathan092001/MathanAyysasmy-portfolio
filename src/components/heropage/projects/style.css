@@ -39,7 +39,7 @@
 
 @media (min-width: 800px) and (max-width: 1366px) {
   .project-section {
-    height: 250vh;
+    height: 260vh;
   }
   .box {
     height: 47vh;
@@ -48,7 +48,7 @@
 
 @media (min-width: 320px) and (max-width: 769px) {
   .project-section {
-    height: 285vh;
+    height: 315vh;
   }
   .box {
     height: 30vh;

@@ -4,13 +4,29 @@ import { RiJavascriptFill, RiTailwindCssFill  } from "react-icons/ri";
 import { DiJqueryLogo } from "react-icons/di";
 import ReactIcon from '../assets/react-icons.svg'
 import VitejsICON from '../assets/Vite.js.png'
-
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 export default function Skills() {
+
+    useEffect(() => {
+        const scroll = ScrollReveal({
+            distance: '60px',
+            duration: 2000,
+            delay: 300,
+            reset: false,
+            opacity: 0,
+        });
+        scroll.reveal('.skill-head', {origin: 'bottom', delay: 400})
+        scroll.reveal('.skillset-1', {origin: 'bottom', delay: 500})
+        scroll.reveal('.skillset-2', {origin: 'bottom', delay: 600})
+        scroll.reveal('.skillset-3', {origin: 'bottom', delay: 700})
+    }, [])
+
     return ( 
         <section id="skills" className="skill-section w-[100vw] md:gap-10 gap-5 md:h-[100vh] h-[100%] bg-slate-950 text-white flex flex-col justify-center items-center p-8 select-none"> 
-            <h1 className="skill-text border-b-2 border-t-2 border-blue-800 px-5 md:text-[1.8vw] text-gray-300 text-[6vw] bg-black">Skills I Have</h1>
-            <div className="flex flex-col justify-center items-center ">
+            <h1 className="skill-text skill-head border-b-2 border-dashed border-blue-800 px-5 md:text-[1.8vw] text-gray-300 text-[6vw] bg-black">Skills I Have</h1>
+            <div className="skillset-1 flex flex-col justify-center items-center ">
                 <div className="skills-heading flex flex-col justify-center items-center text-gray-300">
                    <h2 className="md:text-[1.5vw] font-[700] text-gray-500 text-[5vw]">Core Web</h2>
                 </div>
@@ -32,7 +48,7 @@ export default function Skills() {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="skillset-2 flex flex-col justify-center items-center">
                 <div className="skills-heading flex flex-col justify-center items-center text-gray-300">
                    <h2 className="md:text-[1.5vw] font-[700] text-gray-500 text-[5vw]">Framework & Libraries</h2>
                 </div>
@@ -57,7 +73,7 @@ export default function Skills() {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center ">
+            <div className="skillset-3 flex flex-col justify-center items-center ">
                 <div className="flex flex-col justify-center items-center text-gray-300">
                    <h2 className="md:text-[1.5vw] font-[700] text-gray-500 text-[5vw]">Version Controll, Tools & Icons</h2>
                 </div>

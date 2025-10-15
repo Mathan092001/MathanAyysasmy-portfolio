@@ -1,12 +1,27 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaLinkedin, FaGithub, FaInstagram, FaWhatsappSquare } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { MdErrorOutline } from "react-icons/md";
 import { TiTick } from "react-icons/ti";
 import emailjs from '@emailjs/browser';
 import './contact.css'
+import ScrollReveal from 'scrollreveal';
 
 function Contact() {
+
+    useEffect(() => {
+        const scroll = ScrollReveal({
+            distance: '60px',
+            duration: 2000,
+            delay: 300,
+            reset: false,
+            opacity: 0,
+        });
+        scroll.reveal('.contact-page', {origin: 'top', delay: 400})
+        scroll.reveal('.contact-head', {origin: 'top', delay: 500})
+        scroll.reveal('.sec-1', {origin: 'right', delay: 600})
+        scroll.reveal('.sec-2', {origin: 'left', delay: 600})
+    }, [])
 
     const [name, setName] = useState('');
     const [email, setEmail] =  useState('');
@@ -67,14 +82,14 @@ function Contact() {
     }
 
   return (
-    <section id='contact' className='contact-page bg-black w-[90vw] md:h-[80vh] h-[115vh] p-8 rounded-lg flex flex-col gap-2 justify-center items-center main-container'>
-        <div className='flex flex-col w-full text-center  main-container'>
-            <h1 className='md:text-[3vw] text-[6vw] font-semibold text-gray-400'>Get in touch</h1>
+    <section id='contact' className='contact-page w-[90vw] md:h-[80vh] h-[115vh] p-8 rounded-lg flex flex-col gap-2 justify-center items-center main-container overflow-hidden'>
+        <div className='contact-head flex flex-col w-full text-center  main-container'>
+            <h1 className='md:text-[3vw] text-[6vw] font-semibold text-gray-400 select-none'>Get in touch</h1>
             <hr className='border-b-2 border-blue-800'/>
         </div>
         <div className='md:flex flex-wrap w-[85vw] justify-between'>
-        <div className='md:p-5 p-2 md:w-[40vw] md:gap-8 flex flex-col rounded-lg'>
-            <h1 className='md:text-[2vw] font-semibold text-gray-500 text-center '>Reach Out</h1>
+        <div className='sec-1 md:p-5 p-2 md:w-[40vw] md:gap-8 flex flex-col rounded-lg'>
+            <h1 className='md:text-[2vw] font-semibold text-gray-500 text-center select-none'>Reach Out</h1>
             <form className='flex flex-col text-gray-400 md:gap-3 gap-4 md:text-[1.3vw] text-[3.4vw] main-container'>
                 <div className='flex flex-col '>
                     <span className='text-sky-800 font-semibold'>Name:</span>
@@ -104,20 +119,20 @@ function Contact() {
                 </div>
             </form>
         </div>
-        <div className='md:p-5 p-2 md:w-[40vw] gap-8 flex flex-col rounded-lg'>
-            <h1 className='md:text-[2vw] font-semibold text-gray-500 text-center '>Message Me</h1>
+        <div className='sec-2 md:p-5 p-2 md:w-[40vw] gap-8 flex flex-col rounded-lg'>
+            <h1 className='md:text-[2vw] font-semibold text-gray-500 text-center select-none'>Message Me</h1>
             <form onSubmit={handleSubmit} className='flex flex-col text-gray-400 md:gap-3 gap-4 md:text-[1.3vw] text-[3.4vw] font-normal main-container'>
                 <div className='flex flex-col '>
                     <span className='text-sky-800 font-semibold'>Name:</span>
-                    <input onChange={(e) => setName(e.target.value)} value={name} type='text' placeholder='Type name...' className='border-b-2 border-gray-700 text bg-black outline-none px-3 focus:border-b-2 focus:border-sky-800'/>
+                    <input onChange={(e) => setName(e.target.value)} value={name} type='text' placeholder='Type name...' className='border-b-2 border-gray-700 text bg-black outline-none bg-opacity-10 py-2 px-3 focus:border-b-2 focus:border-sky-800'/>
                 </div>
                 <div className='flex flex-col'>
                     <span className='text-sky-800 font-semibold'>Email:</span>
-                    <input onChange={(e) => setEmail(e.target.value)} value={email} type='email' placeholder='Type Email...' className='border-b-2 border-gray-700 bg-black outline-none text px-3 focus:border-b-2 focus:border-sky-800'/>
+                    <input onChange={(e) => setEmail(e.target.value)} value={email} type='email' placeholder='Type Email...' className='border-b-2 border-gray-700 bg-black outline-none bg-opacity-10 text py-2 px-3 focus:border-b-2 focus:border-sky-800'/>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <span className='text-sky-800 font-semibold'>Send Message:</span>
-                    <textarea onChange={(e) => setMessage(e.target.value)} value={message} typeof='text' placeholder='Type message here...' className='border-2 border-gray-700 bg-black outline-none text px-3 py-2 h-[16vh] rounded-lg focus:border-2 focus:border-sky-800'></textarea>
+                    <textarea onChange={(e) => setMessage(e.target.value)} value={message} typeof='text' placeholder='Type message here...' className='border-2 border-gray-700 bg-black bg-opacity-10 outline-none text px-3 py-2 h-[16vh] rounded-lg focus:border-2 focus:border-sky-800'></textarea>
                 </div>
                 { success ? 
                 <div className='flex justify-center gap-1 items-center border-2 border-green-900'>

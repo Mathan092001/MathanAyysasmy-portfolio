@@ -2,6 +2,7 @@ import "./style.css"
 import { CgDesignmodo } from "react-icons/cg";
 import ProfilePic from '../assets/My-Profile.png'
 import Cloude2 from '../assets/cloude-1.png'
+import ScrollReveal from "scrollreveal";
 
 import { MdOutlineRocketLaunch } from "react-icons/md";
 import { GoDotFill } from "react-icons/go";
@@ -9,30 +10,48 @@ import { FaMobileAlt } from "react-icons/fa";
 import { FaRegBuilding, FaChartSimple  } from "react-icons/fa6";
 import { BsBarChartSteps } from "react-icons/bs";
 import { SiScaleway } from "react-icons/si";
+import { useEffect } from "react";
 
 
 export default function About() {
 
+    useEffect(() => {
+        const scroll = ScrollReveal({
+            distance: '60px',
+            duration: 2000,
+            delay: 300,
+            reset: false,
+            opacity: 0,
+        });
+        scroll.reveal('.profile-bg', {origin: 'right', delay: 500})
+        scroll.reveal('.about', {origin: 'left', delay: 500})
+        scroll.reveal('.cloude-5', {origin: 'left', delay: 500})
+        scroll.reveal('.cloude-1', {origin: 'left', delay: 600})
+        scroll.reveal('.cloude-2', {origin: 'right', delay: 600})
+        scroll.reveal('.cloude-3', {origin: 'right', delay: 500})
+        scroll.reveal('.cloude-4', {origin: 'right', delay: 600})
+    }, [])
+
     return(
-        <section id="about" className=" w-[100%] md:h-[100vh] h-[100%] md:flex flex-wrap items-center flex justify-center md:justify-evenly bg-slate-950 gap-5 text-gray-300 md:p-8 p-3 inset-0 rounded-t-[5rem]">
-            <div className="profile-bg md:w-[40vw] md:h-[70vh] h-[47vh] flex justify-center items-center rounded-t-[80px] border-b-4">
+        <section id="about" className=" w-[100%] md:h-[100vh] h-[100%] md:flex flex-wrap items-center flex justify-center md:justify-evenly bg-slate-950 gap-5 text-gray-300 md:p-8 p-3 inset-0">
+            <div className="profile-bg md:w-[40vw] md:h-[70vh] h-[47vh] flex justify-center items-center md:rounded-t-[80px] rounded-t-[20px] border-b-4">
                 <div className="md:p-10 p-5">
                     <img src={ProfilePic} className="myprofile md:w-[24vw] w-[67vw] h-auto md:h-auto rounded-[10px]" />
                 </div>
                 <div className="cloude-container">
-                <div className="cloude absolute md:top-[-2rem] md:right-[-7rem] right-[9rem] top-[-0.2rem]">
+                <div className="cloude cloude-1 absolute md:top-[-2rem] md:right-[-7rem] right-[9rem] top-[-0.2rem]">
                     <img src={Cloude2} className="w-[12vw] md:w-[20vw] h-auto" />
                 </div>
-                <div className="absolute bottom-7 md:left-[-3rem] left-[-1rem]">
+                <div className="absolute cloude-3 bottom-7 md:left-[-3rem] left-[-1rem]">
                     <img src={Cloude2} className="w-[25vw] md:w-[16vw] h-auto" />
                 </div>
-                <div className="absolute top-0 md:left-20 left-6">
+                <div className="absolute cloude-2 top-0 md:left-20 left-6">
                     <img src={Cloude2} className="w-[20vw] md:w-[8vw] h-auto" />
                 </div>
-                <div className="absolute md:top-[-0.5rem] md:left-[17rem] top-[4.5rem] right-[-1rem]">
+                <div className="absolute cloude-4 md:top-[-0.5rem] md:left-[17rem] top-[4.5rem] right-[-1rem]">
                     <img src={Cloude2} className="w-[15vw] md:w-[5vw] h-auto" />
                 </div>
-                <div className="absolute md:top-[12rem] md:right-[-1.5rem] top-[1rem] right-[-1rem]">
+                <div className="cloude-5 absolute md:top-[12rem] md:right-[-1.5rem] top-[1rem] right-[-1rem]">
                     <img src={Cloude2} className="w-[30vw] md:w-[5vw] h-auto" />
                 </div>
                 </div>
@@ -40,7 +59,7 @@ export default function About() {
             <div className="about flex flex-col gap-4 md:text-[1.2vw]">
             <div className="flex justify-start items-center">
             <div className="flex justify-center items-start gap-2">
-                <h1 className="about-text border-t-2 border-b-2 border-blue-800 px-5 bg-black md:text-[1.8vw] text-[6vw] mb-4">My self</h1>
+                <h1 className="about-text border-dashed border-b-2 border-blue-800 px-5 bg-black md:text-[1.8vw] text-[6vw] mb-4">My self</h1>
                 <div className="sideIcon md:text-[3vw] text-[10vw] text-gray-600"><CgDesignmodo/></div>
             </div>
             </div>
