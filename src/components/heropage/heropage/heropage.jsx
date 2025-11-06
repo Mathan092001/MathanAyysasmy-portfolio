@@ -38,7 +38,7 @@ export default function HeroPage(){
                        <p className="intro-text">Web Experiences</p>
                    </div>
                     <div className="box-text flex gap-5 md:gap-6">
-                        <a href="https://aquamarine-lexine-69.tiiny.site" target="_blank" rel="noopener noreferrer" className="cv md:border-2 border-[1px] border-blue-700 text-gray-300 hover:border-black hover:bg-gray-300 hover:text-black px-2 py-1 text-[2.8vw] md:px-5 md:py-1 duration-[0.1s] ease-in-out rounded-[0.1vw] md:text-[1.2vw] ">My Profile</a>
+                        <a href="https://bronze-berty-56.tiiny.site" target="_blank" rel="noopener noreferrer" className="cv md:border-2 border-[1px] border-blue-700 text-gray-300 hover:border-black hover:bg-gray-300 hover:text-black px-2 py-1 text-[2.8vw] md:px-5 md:py-1 duration-[0.1s] ease-in-out rounded-[0.1vw] md:text-[1.2vw] ">My Profile</a>
                         <a href="#contact" className="cv md:border-2 border-[1px] border-blue-700 text-gray-300 hover:border-black hover:bg-gray-300 hover:text-black px-2 py-1 text-[2.8vw] md:px-5 md:py-1 duration-[0.1s] ease-in-out rounded-[0.1vw] md:text-[1.2vw]">Get in touch</a>
                     </div>
                     <div className="flex gap-5 md:gap-10 text-[8vw] md:text-[2.2vw] text-gray-500 items-center min-h-[40px]">
