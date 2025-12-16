@@ -14,7 +14,7 @@ export default function Footer() {
                   <h1 >By:</h1>
                   <h1 >|Mathan Ayyasamy</h1>
                 </div>
-                <p className='md:text-[1vw] text-[3vw]'>Frontend Developer</p>
+                <p className='md:text-[1vw] text-[3vw]'>Software Engineer</p>
                 </div>
                 <p className="md:text-[0.8vw] text-[2vw] text-gray-500 flex md:gap-2 gap-1 items-center">©2025 <hr className='border border-blue-800 md:h-[2vh] h-[1vh]'/> mathan_ayyasamy <hr className='border border-blue-800 md:h-[2vh] h-[1vh]'/> All rights reserved.</p>
             </div>
