@@ -64,7 +64,7 @@ export default function About() {
             </div>
             </div>
             <p className="md:text-[1.3vw] select-none">
-                Hi, I’m <b className="text-blue-500 ">Mathan Ayyasamy</b >, a front-end developer passionate about building fast, <br /> accessible, and user-friendly websites that bring ideas to life.
+                Hi, I’m <b className="text-blue-500 ">Mathan Ayyasamy</b >, a Software engineer passionate about building fast, <br /> accessible, and user-friendly softwares that bring ideas to life.
             </p>
             <div className="relative z-9 flex flex-col gap-2 select-none ">
             <h2 className="font-semibold md:text-[1.4vw] text-[5.2vw]">My Core Development Strengths :</h2>
